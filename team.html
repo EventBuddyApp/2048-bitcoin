@@ -1,0 +1,138 @@
+
+<!-- 
+╔══╦═╗░░░░░░░░╔═══╦═══╦═══╦╗░╔╗╔═╗░░░░░░░╔╗░╔╗╔╗░
+║╔╗║╬╠╦╦═╦═╦═╗║╔═╗║╔═╗║╔═╗║║░║║║╔╬═╦═╦╦╦╦╬╬═╣╚╣╚╗
+║╔╗║╗╣║╠╗║╔╣╩╣╚╝╔╝║║║║╠╝╔╝║╚═╝║║╚╣╬║╬║║║╔╣║╬║║║╔╣
+╚══╩╩╩═╝╚═╝╚═╝╔═╝╔╣║║║╠═╝╔╩══╗║╚═╩═╣╔╬╗╠╝╚╬╗╠╩╩═╝
+░░░░░░░░░░░░░░║║╚═╣╚═╝║║╚═╗░░║║░░░░╚╝╚═╝░░╚═╝░░░░
+-->
+<!DOCTYPE html>
+i dont know yall add ur own info
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Cards</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  body {
+    background-color: #faf8ef;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .title {
+    text-align: center;
+    color: #776e65;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    background-color: #bbada0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    height: 100%;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    color: #ffffff;
+    height: 100%;
+  }
+
+  .btn {
+    background-color: #8f7a66;
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #7c736a;
+  }
+
+  img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 5px;
+  }
+
+  .watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title">Our Team</h1>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="placeholder"></div>
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-user icon"></i> Jaxon</h5>
+          <p class="card-text">Frontend Developer<br>
+          Jaxon is a coding wizard with a passion for crafting beautiful and user-friendly interfaces.</p>
+          <a href="#" class="icon"><i class="fas fa-info-circle"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="placeholder"></div>
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-user icon"></i> Kris</h5>
+          <p class="card-text">Backend Developer<br>
+          Kris is a coding ninja who loves solving complex problems and optimizing code for efficiency.</p>
+          <a href="#" class="icon"><i class="fas fa-info-circle"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="placeholder"></div>
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-user icon"></i> Jose</h5>
+          <p class="card-text">Full Stack Developer<br>
+          Jose is a coding guru with expertise in both frontend and backend development. He loves building innovative solutions to real-world problems.</p>
+          <a href="#" class="icon"><i class="fas fa-info-circle"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
